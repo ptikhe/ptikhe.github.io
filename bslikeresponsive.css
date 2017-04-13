@@ -1,0 +1,46 @@
+/*
+A CSS skeleton extracted from bootstrap.css to define responsive classes.
+Make sure you define classes for each screen size and you should have a responsive design :-)
+*/
+
+/* print */
+@media print {
+}
+
+/* universal */
+@media all{
+}
+
+/* xs */
+@media (max-width: 767px) {
+}
+
+/* sm+ */
+@media (min-width: 768px) {
+    .responsive-sm-text_r{
+        text-align:left;
+    }
+}
+
+/* md+ */
+@media (min-width: 992px) {
+    .responsive-sm-text_r{
+        text-align:right;
+    }
+}
+
+/* lg */
+@media (min-width: 1200px) {
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* some deprecated IE stuff - don't worry about it! */
+@-ms-viewport {
+}
