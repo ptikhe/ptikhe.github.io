@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'glyphs';
   src:
-    url('#{$icomoon-font-path}/glyphs.ttf?tnzbil') format('truetype'),
-    url('#{$icomoon-font-path}/glyphs.woff?tnzbil') format('woff'),
-    url('#{$icomoon-font-path}/glyphs.svg?tnzbil#glyphs') format('svg');
+    url('#{$icomoon-font-path}/glyphs.ttf?99fuv7') format('truetype'),
+    url('#{$icomoon-font-path}/glyphs.woff?99fuv7') format('woff'),
+    url('#{$icomoon-font-path}/glyphs.svg?99fuv7#glyphs') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -123,6 +123,46 @@
 .icon-bookmarks {
   &:before {
     content: $icon-bookmarks;
+  }
+}
+.icon-arrow-up-left2 {
+  &:before {
+    content: $icon-arrow-up-left2;
+  }
+}
+.icon-arrow-up2 {
+  &:before {
+    content: $icon-arrow-up2;
+  }
+}
+.icon-arrow-up-right2 {
+  &:before {
+    content: $icon-arrow-up-right2;
+  }
+}
+.icon-arrow-right2 {
+  &:before {
+    content: $icon-arrow-right2;
+  }
+}
+.icon-arrow-down-right2 {
+  &:before {
+    content: $icon-arrow-down-right2;
+  }
+}
+.icon-arrow-down2 {
+  &:before {
+    content: $icon-arrow-down2;
+  }
+}
+.icon-arrow-down-left2 {
+  &:before {
+    content: $icon-arrow-down-left2;
+  }
+}
+.icon-arrow-left2 {
+  &:before {
+    content: $icon-arrow-left2;
   }
 }
 .icon-share {
