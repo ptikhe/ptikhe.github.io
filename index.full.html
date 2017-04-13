@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="bslikeresponsive.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="glyphs/style.css"></head>
         <style type="text/css">
             .text_c{
                 text-align:center;
@@ -47,6 +48,34 @@
             }
             .pg_head{
                 font-size:4em;
+            }
+            .pg_icon{
+                font-size:7em;
+            }
+            .regular_icon{
+                font-size:3em;
+                text-decoration:none;
+                color:#000;
+                margin:10px;
+            }
+            .regular_icon:hover{
+                text-decoration:none;
+                filter:blur(2px);
+                color:#000;
+                margin:10px;
+            }
+            .regular_icon:visited{
+                text-decoration:none;
+                color:#000;
+                margin:10px;
+            }
+            .regular_icon:active{
+                text-decoration:none;
+                color:#000;
+                margin:10px;
+            }
+            .regular_icon span{
+                margin:10px;
             }
             .sec_space{
                 margin-bottom:45px;
@@ -224,6 +253,7 @@
         </div>
         <div id="screenplays_div" class="container main_content">
             <div class="row sec_space">
+                <div class="col-12 text_c sec_space"><span class="icon-video-camera pg_icon"></span></div>
                 <div class="col-12">
                     <h1 class="text_c stylized-1 bold pg_head">Screenplays</h1>
                 </div>
@@ -231,6 +261,7 @@
         </div>
         <div id="lyrics_div" class="container main_content">
             <div class="row sec_space">
+                <div class="col-12 text_c sec_space"><span class="icon-pen pg_icon"></span></div>
                 <div class="col-12">
                     <h1 class="text_c stylized-1 bold pg_head">Lyrics</h1>
                 </div>
@@ -238,6 +269,7 @@
         </div>
         <div id="poetry_div" class="container main_content">
             <div class="row sec_space">
+                <div class="col-12 text_c sec_space"><span class="icon-quill pg_icon"></span></div>
                 <div class="col-12">
                     <h1 class="text_c stylized-1 bold pg_head">Poetry</h1>
                 </div>
@@ -245,9 +277,24 @@
         </div>
         <div id="contact_div" class="container main_content">
             <div class="row sec_space">
+                <div class="col-12 text_c sec_space"><span class="icon-bubbles3 pg_icon"></span></div>
                 <div class="col-12">
                     <h1 class="text_c stylized-1 bold pg_head">Contact Me!</h1>
-                    
+                </div>
+            </div>
+            <div class="row sec_space">
+                <div class="col-12" style="line-height:6em">
+                    <a href="https://www.linkedin.com/in/prithvitikhe"><span class="regular_icon icon-linkedin"></span></a>
+                    <a class="hash_switch" href="#soon"><span class="regular_icon icon-mail2"></span></a>
+                    <a class="hash_switch" href="#soon"><span class="regular_icon icon-youtube2"></span></a>
+                </div>
+            </div>
+        </div>
+        <div id="soon_div" class="container main_content">
+            <div class="row sec_space">
+                <div class="col-12 text_c sec_space"><span class="icon-hour-glass pg_icon"></span></div>
+                <div class="col-12">
+                    <h1 class="text_c stylized-1 bold pg_head">Coming Soon...</h1>
                 </div>
             </div>
         </div>
