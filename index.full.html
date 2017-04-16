@@ -538,6 +538,7 @@
                 $('a.noscroll').on('click', function(e) {e.preventDefault(); return true;});
                 window.onhashchange = function() {
                     var div2show=window.location.hash+'_div';
+                    div2show=(div2show=='' | div2show=='#_div' | div2show=="_div")?'#about_prithvi_div':div2show;
                     $("#navbarNavDropdown").collapse('hide');
                     div2show=(div2show=='' | div2show=='#_div')?'#about_prithvi':div2show;
                     $(".main_content").hide(600);
