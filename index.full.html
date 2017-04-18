@@ -73,7 +73,11 @@
                 font-size:1.2em;
             }
             .stylized-1{
-                font-family: 'Kalam', cursive;
+                /*font-family: 'Kalam', cursive;*/
+                font-family: 'Open Sans', sans-serif;
+            }
+            .small-caps{
+                font-variant:small-caps;
             }
             .bold{
                 font-weight:900;
@@ -115,6 +119,12 @@
             .regular_icon span{
                 margin:10px;
             }
+            .menu_icon{
+                font-size:3em;
+                text-decoration:none;
+                color:#000;
+                margin:10px;
+            }
             .button_icon{
                 text-decoration:none;
                 color:#000;
@@ -153,44 +163,73 @@
                 display:none;
             }
             p.quote{
-                font-size:1.5em;
+                font-size:1.1em;
             }
             p.justify{
                 text-align:justify;
             }
             .nav-item{
-                font-size:1.3em;
+                font-size:1em;
+                /*font-weight:bolder;*/
             }
             .navbar-brand{
-                font-size:1.6em;
+                font-size:1.9em;
                 font-weight:bolder;
+            }
+            .navbar-brand{
+                color:#90B5D4;
             }
             .unsaturate{
                 filter:saturate(0);
             }
+            nav.navbar li a {
+                color: rgba(0,0,0,.60);
+            }
+            .light-gray{
+                color: rgba(0,0,0,.60);
+            }
+            nav.navbar{
+                border-bottom:1px solid rgba(0,0,0,.1);
+            }
+            .text-vcenter{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .vertical-center-text-inner{
+                display:table-cell;
+                vertical-align:middle;
+                height:100%;
+                width:100%;
+            }
         </style>
-        <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     </head>
     <body class="stylized-1">
-        <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded fixed-top">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">Prithvi G. Tikhe</a>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#about_prithvi">About<span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#screenplays">Screenplays</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#lyrics">Lyrics</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#poetry">Poetry</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
         <div class="container">
-            <div class="row" style="height:120px">
+            <nav class="navbar navbar-toggleable-md" style="background-color: #FFF;">
+                <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand text-uppercase" href="#">Prithvi G. Tikhe</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about_prithvi">About<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#screenplays">Screenplay</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#poetry">Poetry</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#lyrics">Lyrics</a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>-->
+                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/prithvi-tikhe-14410312a/"><span class="icon-linkedin"></span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://www.google.com/recaptcha/mailhide/d?k=01MK_qKgGjjGju4PICbk817A==&c=JZC4WwhVB7vIwmUwiFYG7A=="><span class="icon-mail2"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        -<div class="container">
+            <div class="row" style="height:30px">
                 <div class="col-12 text_r">
                     &nbsp;
                 </div>
@@ -198,20 +237,25 @@
         </div>
         <div id="about_prithvi_div" class="container main_content">
             <div class="row sec_space">
-                <div class="col-sm-12 col-md-4 text_c">
+                <div class="col-sm-12 col-md-4 text_c sec_space">
                     <img class="img_circle" src="prithvi_tikhe_001.jpeg" alt="Prithvi Tikhe">
                 </div>
-                <div class="col-sm-12 col-md-8">
-                    <br/><br/>
+                <div class="col-sm-12 col-md-8 text-vcenter">
+                    <!--<br/><br/>
                     <h1 class="stylized-1 bold pg_head">Prithvi G. Tikhe</h1>
-                    <br/>
-                    <p class="quote justify">I am a student at Boston University in the College of Communication, majoring in Journalism, Film and Television. I enjoy writing and meeting people. I write screenplays, poetry and combine my creative writing skills with my love for music to write songs.</p>
+                    <br/>-->
+                    <div>
+                        <p class="quote justify">I am a student at Boston University in the College of Communication, majoring in Journalism, Film and Television.</p>
+                        <p class="quote justify">I write for The Quad and The Daily Free Press as well as work with video and stills.</p>
+                        <p class="quote justify">I write screenplays, poetry and combine my creative writing skills with my love for music to write songs.</p>
+                        <br/><br/>
+                    </div>
                 </div>
             </div>
             <div class="row sec_space">
-                <div class="col-12"><hr/><p class="quote justify font-weight-bold">Places I've Been Published</p></div>
-                <div class="col-sm-12 col-md-6 col-lg-6 text_c sec_space" data-toggle="tooltip" data-placement="top" title="The Quad"><a href="http://buquad.com/author/ptikhe/" target="_blank"><img src="chitra/quad.png" alt="The Quad" class="sec_space"/></a><h2>The Quad</h2></div>
-                <div class="col-sm-12 col-md-6 col-lg-6 text_c sec_space" data-toggle="tooltip" data-placement="top" title="The Daily Free Press"><a href="http://dailyfreepress.com/author/prithvitikhe/" target="_blank"><img src="chitra/dfp.png" alt="The Daily Free Press" class="sec_space"/></a><h2>The Daily Free Press</h2></div>
+                <div class="col-12"><hr/><p class="justify font-weight-bold light-gray">Places I've Been Published</p></div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text_c sec_space" data-toggle="tooltip" data-placement="top" title="The Quad"><a href="http://buquad.com/author/ptikhe/" target="_blank"><img src="chitra/quad.png" alt="The Quad" class="sec_space"/></a><!--<h2>The Quad</h2>--></div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text_c sec_space" data-toggle="tooltip" data-placement="top" title="The Daily Free Press"><a href="http://dailyfreepress.com/author/prithvitikhe/" target="_blank"><img src="chitra/dfp.png" alt="The Daily Free Press" class="sec_space"/></a><!--<h2>The Daily Free Press</h2>--></div>
             </div>
         </div>
         <div id="cv_div" class="container main_content">
@@ -352,7 +396,7 @@
             <div class="row sec_space">
                 <div class="col-12 text_c sec_space"><span class="icon-video-camera pg_icon"></span></div>
                 <div class="col-12">
-                    <h1 class="text_c stylized-1 bold pg_head">Screenplays</h1>
+                    <h1 class="text_c stylized-1 bold pg_head">Screenplay</h1>
                 </div>
             </div>
             <div class="row">
