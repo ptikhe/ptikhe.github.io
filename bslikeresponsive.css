@@ -15,6 +15,13 @@ Make sure you define classes for each screen size and you should have a responsi
 @media (max-width: 767px) {
 }
 
+/* sm- */
+@media (max-width: 768px) {
+    .sec_space_sm{
+        margin-bottom:45px;
+    }
+}
+
 /* sm+ */
 @media (min-width: 768px) {
     .responsive-sm-text_r{
