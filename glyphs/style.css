@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'glyphs';
   src:
-    url('fonts/glyphs.ttf?99fuv7') format('truetype'),
-    url('fonts/glyphs.woff?99fuv7') format('woff'),
-    url('fonts/glyphs.svg?99fuv7#glyphs') format('svg');
+    url('fonts/glyphs.ttf?yroihf') format('truetype'),
+    url('fonts/glyphs.woff?yroihf') format('woff'),
+    url('fonts/glyphs.svg?yroihf#glyphs') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -122,6 +122,9 @@
 .icon-facebook:before {
   content: "\ea90";
 }
+.icon-instagram:before {
+  content: "\ea92";
+}
 .icon-whatsapp:before {
   content: "\ea93";
 }
@@ -134,6 +137,9 @@
 .icon-rss:before {
   content: "\ea9b";
 }
+.icon-youtube:before {
+  content: "\ea9d";
+}
 .icon-youtube2:before {
   content: "\ea9e";
 }
@@ -142,6 +148,9 @@
 }
 .icon-flickr2:before {
   content: "\eaa4";
+}
+.icon-500px:before {
+  content: "\eaab";
 }
 .icon-wordpress:before {
   content: "\eab4";
