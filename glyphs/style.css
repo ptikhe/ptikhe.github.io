@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'glyphs';
   src:
-    url('fonts/glyphs.ttf?yroihf') format('truetype'),
-    url('fonts/glyphs.woff?yroihf') format('woff'),
-    url('fonts/glyphs.svg?yroihf#glyphs') format('svg');
+    url('fonts/glyphs.ttf?4pr2on') format('truetype'),
+    url('fonts/glyphs.woff?4pr2on') format('woff'),
+    url('fonts/glyphs.svg?4pr2on#glyphs') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-film2:before {
+  content: "\e901";
+}
+.icon-device-camera-video:before {
+  content: "\e900";
+}
 .icon-office:before {
   content: "\e903";
 }
@@ -182,4 +188,6 @@
 .icon-file-pdf:before {
   content: "\eadf";
 }
-
+.icon-film:before {
+  content: "\e913";
+}
