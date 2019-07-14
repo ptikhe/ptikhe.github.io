@@ -906,10 +906,12 @@ I also work with video and stills, write screenplays and poetry, and combine my 
         <script>
             var k;
             $(document).ready(function(){
+			console.log('JQ_ready!');
                 var div2show=window.location.hash+'_div';
                 div2show=(div2show=='' | div2show=='#_div' | div2show=="_div")?'#about_prithvi_div':div2show;
                 win_hash=(window.location.hash=='' | window.location.hash=='#')?'#about_prithvi':window.location.hash;
                 $('a[href="'+win_hash+'"]').parent().addClass("active");
+				console.log('R:Showing...'+div2show);
                 $(div2show).show();
                 $('[data-toggle="popover"]').popover({
                     html:true,
@@ -924,6 +926,7 @@ I also work with video and stills, write screenplays and poetry, and combine my 
                     $("#navbarNavDropdown").collapse('hide');
                     div2show=(div2show=='' | div2show=='#_div')?'#about_prithvi':div2show;
                     $(".main_content").hide(600);
+					console.log('Click:Showing...'+div2show);
                     $(div2show).show();
                     $(window).scrollTop(0);
                 }
